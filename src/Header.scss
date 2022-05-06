@@ -1,0 +1,445 @@
+.Nav_Bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Nav_Bar_child_1 {
+  display: flex;
+  align-items: center;
+}
+
+.Features:hover {
+  color: #35333e;
+}
+
+.Pricing:hover{
+  color: #35333e;
+}
+.Recources:hover{
+  color: #35333e;
+}
+.Login:hover{
+  color: #35333e;
+}
+
+
+
+.Nav_Bar_child_2 {
+  display: flex;
+  align-items: center;
+
+
+}
+.Shortly {
+  font-size: 30px;
+  font-family: kanit;
+  font-weight: 900;
+  color: #35333e;
+}
+html {
+margin:0px;
+padding:0px; 
+}
+
+.Features {
+  color: #a0a0a2;
+  font-family: kanit;
+  margin-left: 35px;
+  transition: 1s;
+  cursor: pointer;
+
+}
+
+.Pricing {
+  color: #a0a0a2;
+  font-family: kanit;
+  margin-left: 35px;
+  margin-right: 35px;
+  transition: 1s;
+  cursor: pointer;
+
+}
+
+.Recources {
+  color: #a0a0a2;
+  font-family: kanit;
+  transition: 1s;
+  cursor: pointer;
+
+}
+.Login{
+margin-right: 60px;
+font-family: Quicksand;
+font-weight: 900;
+color: #a0a0a2;
+transition: 1s;
+cursor: pointer;
+
+}
+
+.Sign_Up{
+  padding: 10px 20px 10px 20px;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 28px;
+color:white;
+font-family: Quicksand;
+font-weight: 900;
+transition: 1s;
+cursor: pointer;
+
+}
+
+.Sign_Up:hover{
+  background-color:hsl(180, 46%, 49%);
+}
+
+
+
+.First_Text{
+  width: 667px;
+  font-size: 97px;
+  margin-top: 40px;
+  font-family: kanit;
+  line-height: 100px;
+  color: #35333e;
+  font-weight: 900;
+
+}
+
+
+.First_img{
+  margin-left: -28px;
+  width: 700px;
+  height: 400px;
+}
+
+.Hero_Section{
+  margin-top:90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.Second_Text{
+  margin-top: 20px;
+  font-size: 27px;
+  margin-bottom: 56px;
+  font-family: Quicksand;
+  font-weight: 900;
+  color: #a0a0a2;
+}
+
+
+main{
+height: 100vh;
+
+}
+
+
+
+.text_img{
+display:flex;
+
+}
+
+
+.button{
+  padding: 10px 20px 10px 20px;
+  background-color: hsl(180, 66%, 49%);
+  border-radius: 28px;
+color:white;
+font-family: Quicksand;
+font-weight: 900;
+transition: 1s;
+cursor: pointer;
+border: none;
+width: 150px;
+height: 48px;
+font-size: 20px;
+}
+
+
+
+
+.button:hover{
+  background-color:hsl(180, 46%, 49%);
+}
+
+
+
+.input_section{
+border-radius:10px;
+
+background:url("https://elastic-ptolemy-3436fc.netlify.app/img/bg-shorten-desktop.a82de60e.svg");
+background-color:#3a3054;
+height: 168px;
+}
+
+.input_div{
+  width:1110px;
+  height: 168px;
+  margin-top: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.input_field{
+  width: 769.89px;
+  height: 60px;
+  border: none;
+  border-radius: 7px;
+  font-size: 22px;
+  padding-left: 26px;
+  padding-right: 26px;
+  font-family: Quicksand;
+  font-weight: 700;
+}
+
+
+
+.second_btn{
+  width: 189px;
+  height: 66px;
+  border: none;
+  border-radius: 15px;
+  margin-left: 14px;
+  font-size: 22px;
+  font-family: 'Kanit';
+  font-weight: 600;
+  color: white;
+  background-color: #2acfcf;
+transition: 1s;
+cursor: pointer;
+}
+
+
+.second_btn:hover{
+background-color: #91e8e8;
+
+}
+
+.stats{
+  display: flex;
+  justify-content: center;
+  font-size: 46px;
+  font-family: 'Kanit';
+  color: #35333e;
+  margin-top: 100px;
+  font-weight: 900;
+}
+.second_stats{
+display: flex;
+justify-content: center;
+
+}
+
+.second_stats_div{
+  width: 505px;
+  font-size: 22px;
+ text-align: center;
+ margin-top: 18px;
+ font-family: 'Quicksand';
+ margin-bottom: 50px;
+ font-weight: 900;
+    opacity: 0.5;
+}
+
+
+
+.wrap{
+max-width: 1095px;
+min-width: 1095px;
+margin-left: 221px;
+margin-right: 221px;
+margin-top: 55px;
+padding: 0px 15px;
+}
+
+
+.card_img_div{
+  position: absolute;
+  background: #3a3054;
+  width: 88px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: -88px;
+  margin-left: 10px;
+}
+
+
+
+
+.first_card{
+  background: #d5d5d5;
+  width: 313px;
+  margin-top: 114px;
+  height: 178px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+font-family: Quicksand;
+font-size: 20px;
+border-radius: 10px;
+padding-right: 15px;
+padding-left: 15px;
+
+}
+
+
+.heading{
+  font-family: 'Kanit';
+font-size: 23px;
+font-weight: 900;
+}
+
+
+.second_heading{
+  margin-top: 15px;
+  font-weight: 900;
+  opacity:0.5;
+}
+
+.cards{
+  display: flex;
+  position: relative;
+    justify-content: space-around;
+}
+
+
+
+.line{
+  border-top: 13px solid #2acfcf;
+  position: absolute;
+  margin-top: 265px;
+  width: 1061px;
+  /* margin: 0 auto; */
+  /* display: flex; */
+  margin-left: 20px;
+
+}
+
+.second_card{
+background: #d5d5d5;
+width: 313px;
+margin-top: 158px;
+height: 178px;
+padding-top: 40px;
+padding-bottom: 20px;
+font-family: Quicksand;
+font-size: 20px;
+border-radius: 10px;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+
+
+.third_card{
+  background: #d5d5d5;
+  width: 313px;
+  margin-top: 202px;
+  height: 178px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: Quicksand;
+  font-size: 20px;
+  border-radius: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+
+
+  a{
+  all:unset;
+
+  }
+
+  .footer_div{
+    max-width: 1095px;
+min-width:1600px;
+    margin-top:130px;
+    background: url(https://elastic-ptolemy-3436fc.netlify.app/img/bg-boost-desktop.dc8b886b.svg);
+    /* width: 1574px; */
+    height: 250px;
+    text-align: center;
+    background-color: #3b3054;
+    width: 100vw;
+    margin-left: -25px;
+    // width: 1587px;
+    // margin-left: -248px;
+  
+
+
+  }
+  .footer_text{
+    margin-top: 20px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+    font-size: 40px;
+    font-family: 'Kanit';
+    color: #f8f9fa;
+    padding-top:50px;
+  }
+
+
+  .footer_btn{
+    font-size: 22px;
+    font-family: 'Kanit';
+    font-weight: 600;
+    color: white;
+    background-color: #2acfcf;
+  transition: 1s;
+  cursor: pointer;
+  border:none;
+  border-radius:20px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top: 5px;
+  padding-bottom:5px;
+transition:1s;
+}
+
+
+.footer_btn:hover{
+background-color:#91e8e8;
+}
+
+.footer_description{
+display: flex;
+justify-content: space-around;
+height: 310px;
+    width: 1583px;
+    background: #232128;
+    color: white;
+    font-family: 'QUICKSAND';
+    position: absolute;
+    margin-left: -8px;
+    padding-top: 60px;
+}
+
+.same_style{
+  font-size: 22px;
+  font-weight: 900;
+
+}
+
+
+.section_style_same{
+  display: flex;
+  flex-direction: column;
+  /* background: red; */
+  height: 164px;
+  justify-content: space-around;
+}
+
+.footer_shortly{
+  font-size: 41px;
+  font-family: 'Kanit';
+  
+}
+
